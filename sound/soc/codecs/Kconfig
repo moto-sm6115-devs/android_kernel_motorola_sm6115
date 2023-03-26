@@ -1272,6 +1272,12 @@ config SND_SOC_ZX_AUD96P22
 config SND_SOC_SMARTPA_AW882xx
 	tristate
 
+config SND_SOC_FS16XX
+       tristate "Support foursemi fs16xx chip"
+	   depends on I2C
+	   help
+	   foursemi fs16xx driver
+
 # Amp
 config SND_SOC_LM4857
 	tristate

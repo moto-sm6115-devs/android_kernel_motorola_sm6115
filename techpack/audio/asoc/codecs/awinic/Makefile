@@ -1,0 +1,3 @@
+ifndef CONFIG_RHODE_DTB
+	obj-$(CONFIG_SND_SMARTPA_AW882XX) += aw882xx.o
+endif
