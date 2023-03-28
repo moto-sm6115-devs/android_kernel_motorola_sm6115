@@ -816,6 +816,12 @@ config LEDS_QPNP_VIBRATOR
 	  manually or by the DTEST lines.It uses the android timed-output
 	  framework.
 
+config LEDS_INDICATOR_PWM
+	tristate "LEDs Indicator PWM"
+	help
+	  This option enables device driver support for the LEDs
+	  Indicator PWM.
+
 comment "LED Triggers"
 source "drivers/leds/trigger/Kconfig"
 
